@@ -1,0 +1,90 @@
+/*navbar*/
+.navbar-brand {
+  margin-top: -20px;
+}
+.navbar-logo-text {
+  position: absolute;
+  display: inline-block;
+  margin: 20px 0 0 90px;
+}
+.navbar-logo {
+  width: 80px;
+  height: 60px;
+  background: url("../images/EFMDarkGray60x80.svg") no-repeat;
+  display: inline-block;
+}
+.navbar-logo:hover {
+  background: url("../images/EFMBlue60x80.svg") no-repeat;
+}
+
+/*banner*/
+.banner.banner-lg {
+  text-align: center;
+  padding: 50px 0 100px 0;
+}
+.banner {
+  background-color: #3A71BA;
+  color: #ffffff;
+  margin-top: -21px;
+  padding: 20px 0 40px 0;
+}
+
+.banner h2 {
+  font-weight: 300;
+}
+a:hover {
+  color: #3A71BA !important;
+}
+
+/*body*/
+body {
+  padding-top: 65px;
+  color: #333 !important;
+  padding-bottom: 135px;
+}
+
+.circle.avatar {
+  max-height: 220px;
+}
+.clients-logos {
+  text-align: center;
+}
+.clients-logos img{
+  height: 45px;
+  margin: 15px;
+}
+
+#about, #services, #clients {
+  padding-top: 40px;
+}
+
+.thumbnail {
+  border: none;
+  text-align: center;
+  margin-bottom: 0;
+}
+.row.space {
+  /*margin: 50px 0 50px 0;*/
+}
+.circle {
+  border-radius: 50%;
+}
+.avatar {
+  border: 1px solid #cccccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.light {
+  color: #999999;
+}
+
+/*footer*/
+.footer {
+
+  color: #fff;
+}
+
+.footer .container .nav {
+  float: none;
+  width: 100%;
+}
